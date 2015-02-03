@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace VSCommandLine
+﻿namespace VSCommandLine
 {
     public class VisualStudioLocator
     {
-        private VisualStudioRegistryLocations _registryLocations;
+        private readonly VisualStudioRegistryLocations _registryLocations;
 
         public VisualStudioLocator()
         {
